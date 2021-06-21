@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    text-align: center;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.watch_desc{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo{
+    width: 130px;
+}
+
+.main_wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#watch{
+    width: 500px;
+
+}
+.watch_wrapper{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 23px;
+}
+.text_wrapper{
+    width: 45%;
+}
+#time{
+    position: relative;
+    top: -270px;
+    letter-spacing: 7px;
+}
+#heart-rate{
+    position: relative;
+    top: -320px;
+    display: none;
+}
+.radio_colors{
+    width: 50px;
+    height: 35px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio_colors:nth-of-type(1){
+    margin-left: 0;
+    background-color:  #565681;
+}
+
+.radio_colors:nth-of-type(2){
+    background-color:  #ca3d22;
+}
+
+.radio_colors:nth-of-type(3){
+    background-color:  #23211f;
+}
+
+.radio_colors:nth-of-type(4){
+    background-color:  #8a5362;
+}
+
+.features_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #e0dede;
+    padding: 10px 25px;
+    margin-right: 7px;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.buy_btn{
+    background-color: orange;
+    text-transform: uppercase;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.heart_img{
+    width: 90px;
+    animation: heart 0.7s linear infinite;
+}
+
+@keyframes heart{
+    0%{
+        transform: rotate(0deg) scale(1.1);
+    }
+    80%{
+        transform: rotate(0deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(0deg) scale(0.9);
+    }
+}
